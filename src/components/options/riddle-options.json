@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_options_riddle_options",
+  "info": {
+    "displayName": "Riddle Options",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

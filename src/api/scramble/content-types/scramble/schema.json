@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scrambles",
+  "info": {
+    "singularName": "scramble",
+    "pluralName": "scrambles",
+    "displayName": "Scramble",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "word": {
+      "type": "string"
+    },
+    "hint": {
+      "type": "string"
+    },
+    "correctWord": {
+      "type": "string"
+    }
+  }
+}

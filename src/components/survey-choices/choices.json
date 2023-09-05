@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_survey_choices_choices",
+  "info": {
+    "displayName": "Choices",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "optionOne": {
+      "type": "string"
+    },
+    "optionTwo": {
+      "type": "string"
+    },
+    "optionThree": {
+      "type": "string"
+    },
+    "optionFour": {
+      "type": "string"
+    },
+    "optionFive": {
+      "type": "string"
+    },
+    "optionSix": {
+      "type": "string"
+    },
+    "optionSeven": {
+      "type": "string"
+    },
+    "optionEight": {
+      "type": "string"
+    },
+    "optionNine": {
+      "type": "string"
+    },
+    "optionTen": {
+      "type": "string"
+    }
+  }
+}

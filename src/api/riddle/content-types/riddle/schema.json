@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "riddles",
+  "info": {
+    "singularName": "riddle",
+    "pluralName": "riddles",
+    "displayName": "Riddle",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": false
+    },
+    "slug": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "input",
+        "checkbox"
+      ]
+    },
+    "Choices": {
+      "displayName": "Choices",
+      "type": "component",
+      "repeatable": true,
+      "component": "survey-choices.choices"
+    },
+    "newoptionexample": {
+      "type": "json"
+    }
+  }
+}
