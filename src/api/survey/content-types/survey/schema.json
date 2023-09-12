@@ -4,7 +4,8 @@
   "info": {
     "singularName": "survey",
     "pluralName": "surveys",
-    "displayName": "Survey"
+    "displayName": "Survey",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,6 +27,9 @@
         "input",
         "checkbox"
       ]
+    },
+    "multiple": {
+      "type": "boolean"
     }
   }
 }
