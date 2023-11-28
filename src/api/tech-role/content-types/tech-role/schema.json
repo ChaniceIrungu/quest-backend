@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tech_roles",
+  "info": {
+    "singularName": "tech-role",
+    "pluralName": "tech-roles",
+    "displayName": "TechRole",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "role": {
+      "type": "string"
+    }
+  }
+}

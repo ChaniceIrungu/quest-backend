@@ -30,6 +30,12 @@
     },
     "multiple": {
       "type": "boolean"
+    },
+    "survey_options": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::survey-option.survey-option",
+      "mappedBy": "survey"
     }
   }
 }
